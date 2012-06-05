@@ -12,4 +12,4 @@ chomp ($repeatNumber = <STDIN>);
 
 #Causing:
 #There is no numeric and string checking. If an untranslatble string is input as the number parameter, you will get a (W numeric) and no result
-print  "Result is: \n" . $stringToRepeat x $repeatNumber;
+print  "Result is \n" . $stringToRepeat x $repeatNumber;
