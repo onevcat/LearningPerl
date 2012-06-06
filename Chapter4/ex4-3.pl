@@ -15,7 +15,7 @@ sub total
 #Calculate average of several numbers.
 sub average
 {
-	#In case the 0-devided expection.
+	#In case the 0-divided expection.
 	if (@_) {
 		#Average = Total / Count
 		my $average = total(@_) / @_;	
