@@ -15,8 +15,13 @@ sub total
 #Calculate average of several numbers.
 sub average
 {
-	#Average = Total / Count
-	my $average = total(@_) / @_;
+	#In case the divide 0 expection.
+	if (@_) {
+		#Average = Total / Count
+		my $average = total(@_) / @_;	
+	}
+	
+	#If the list is empty, it's OK to return a undef.
 }
 
 

@@ -4,7 +4,7 @@ use strict;
 #Calculate total of several numbers.
 sub total 
 {
-	my $sum;
+	my $sum = 0;
 	foreach (@_) 
 	{
 		$sum += $_;
