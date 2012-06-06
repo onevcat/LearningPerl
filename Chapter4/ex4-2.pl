@@ -14,4 +14,4 @@ sub total
 
 my @numbers = (1..1000);
 my $sum = total(@numbers);
-print "Sum of $numbers[0] to $numbers[-1] is: $sum";
+print "Sum of $numbers[0] to $numbers[-1] is: $sum\n";
