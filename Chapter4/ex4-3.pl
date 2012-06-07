@@ -1,6 +1,5 @@
 #! /usr/bin/perl
 use strict;
-
 #Calculate total of several numbers.
 sub total 
 {
@@ -20,7 +19,6 @@ sub average
 		#Average = Total / Count
 		my $average = total(@_) / @_;	
 	}
-	
 	#If the list is empty, it's OK to return a undef.
 }
 

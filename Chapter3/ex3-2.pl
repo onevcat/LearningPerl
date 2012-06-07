@@ -11,4 +11,3 @@ chomp (@outputIndexes = <STDIN>);
 foreach (@outputIndexes) {
 	print "Index: $_, Name: $names[$_-1]\n";
 }
-
