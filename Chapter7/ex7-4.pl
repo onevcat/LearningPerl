@@ -2,7 +2,7 @@
 use strict;
 
 while (<>) {
-	if (/[A-Z]+[a-z]+[A-Z]*/ && !/[a-z]+[A-Z]+[a-z]+[A-Z]*/) {
+	if (/[A-Z][a-z]+/) {
 		print;	
 	}
 }
