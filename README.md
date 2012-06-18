@@ -1,7 +1,7 @@
 LearningPerl
 ============
 
-It's a repo for Perl learning to get prepared for future working in Kayac(面白法人). All exersises in the reference book "Learning Perl (Sixth Edition)" are solved.
+It's a repo for Perl learning to get prepared for my future working in **Kayac(面白法人)**. All exersises in the reference book "Learning Perl (Sixth Edition)" are solved.
 
 ---
 
