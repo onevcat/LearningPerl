@@ -2,7 +2,7 @@
 use strict;
 use	5.010;
 
-#Test Enviroment Variables
+#Test Environment Variables
 $ENV{Test_ENV_VAR_1} = 0;
 $ENV{Test_ENV_VAR_2} = "0";
 $ENV{Test_ENV_VAR_3} = "";

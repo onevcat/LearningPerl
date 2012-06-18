@@ -19,7 +19,7 @@ while ($input = <STDIN>) {
 		next;
 	}
 	else {
-		print "You are right, the anwser is $number\n";
+		print "You are right, the answer is $number\n";
 		last;
 	}
 }
