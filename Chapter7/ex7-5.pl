@@ -2,7 +2,7 @@
 use strict;
 
 while (<>) {
-	if (/(\P{Space})\g{1}/) {
-		print;	
-	}
+    if (/(\P{Space})\g{1}/) {
+        print;	
+    }
 }

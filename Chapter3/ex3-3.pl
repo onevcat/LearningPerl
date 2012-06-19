@@ -12,5 +12,5 @@ print "Output sorted strings in one line:\n";
 print "@sortedStrings\n\n";
 print "Output sorted strings in seperated lines:\n";
 foreach (@sortedStrings) {
-	print "$_\n";
+    print "$_\n";
 }

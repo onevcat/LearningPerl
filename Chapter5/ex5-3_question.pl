@@ -11,5 +11,5 @@ chomp (my @list = <STDIN>);
 print "1234567890" x ($position / 10), (1 .. $position % 10), "\n";
 
 foreach (@list) {
-	printf "%${position}s\n", $_;
+    printf "%${position}s\n", $_;
 }

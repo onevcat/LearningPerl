@@ -10,5 +10,5 @@ my $dirChanged = ($folederPath =~ /\A\s*\z/) ? chdir : chdir $folederPath;
 opendir my $folderHandle, "." or die "Change DIR Failed! $!";
 ### and read the file list
 foreach (sort readdir $folderHandle) {
-	print "$_\n";
+    print "$_\n";
 }

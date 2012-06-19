@@ -7,10 +7,10 @@ chomp ( my $folederPath = <STDIN>);
 my $dirChanged = ($folederPath =~ /\A\s*\z/) ? chdir : chdir $folederPath;
 
 if ($dirChanged) {
-	foreach (sort glob '*') {
-		print "$_\n";
-	} 
+    foreach (sort glob '*') {
+        print "$_\n";
+    } 
 }
 else {
-	die "Change DIR Failed! $!";
+    die "Change DIR Failed! $!";
 }

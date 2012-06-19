@@ -10,13 +10,12 @@ my ($source, $destination) = @ARGV;
 ### source: $source
 ### destination: $destination
 if (-d $destination) {
-	### destination is a directory.
-	$destination = File::Spec->catfile ($destination, basename $source);
-	### destination: $destination
+    ### destination is a directory.
+    $destination = File::Spec->catfile ($destination, basename $source);
+    ### destination: $destination
 }
 if ($softArg eq "-s") {
-	symlink $source, $destination or die "Link File error. $!";
-}
-else {
-	link $source, $destination or die "Link File error. $!";
+    symlink $source, $destination or die "Link File error. $!";
+} else {
+    link $source, $destination or die "Link File error. $!";
 }

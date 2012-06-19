@@ -2,7 +2,7 @@
 use strict;
 
 while (<>) {
-	if (/fred/) {
-		print;
-	}
+    if (/fred/) {
+        print;
+    }
 }

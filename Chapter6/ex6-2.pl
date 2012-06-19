@@ -3,11 +3,11 @@ use strict;
 
 my %words;
 while (<>) {
-	chomp;
-	$words{$_} ++;
+    chomp;
+    $words{$_} ++;
 }
 
 my @keys = sort keys %words;
 foreach (@keys) {
-	print "Word: $_, Count: $words{$_}\n";
+    print "Word: $_, Count: $words{$_}\n";
 }

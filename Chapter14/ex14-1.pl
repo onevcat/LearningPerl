@@ -3,8 +3,8 @@ use strict;
 
 my @numbers;
 while ( <> ) {
-	push @numbers, split;
+    push @numbers, split;
 }
 foreach (sort {$a <=> $b} @numbers) {
-	printf "%10g\n",$_;
+    printf "%10g\n",$_;
 }

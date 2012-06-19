@@ -2,8 +2,8 @@
 use strict;
 
 while (<>) { # take one input line at a time
-	chomp;
-	if (/\p{Space}\z/) {
-		print "$_=========\n";
-	}
+    chomp;
+    if (/\p{Space}\z/) {
+        print "$_=========\n";
+    }
 }

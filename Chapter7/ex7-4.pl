@@ -2,7 +2,7 @@
 use strict;
 
 while (<>) {
-	if (/[A-Z][a-z]+/) {
-		print;	
-	}
+    if (/[A-Z][a-z]+/) {
+        print;	
+    }
 }

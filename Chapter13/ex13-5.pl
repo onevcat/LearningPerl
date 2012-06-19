@@ -7,8 +7,8 @@ my ($source, $destination) = @ARGV;
 ### source: $source
 ### destination: $destination
 if (-d $destination) {
-	### destination is a directory.
-	$destination = File::Spec->catfile ($destination, basename $source);
-	### destination: $destination
+    ### destination is a directory.
+    $destination = File::Spec->catfile ($destination, basename $source);
+    ### destination: $destination
 }
 rename $source, $destination or die "Rename File error. $!";

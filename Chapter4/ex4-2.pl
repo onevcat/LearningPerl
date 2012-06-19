@@ -2,14 +2,12 @@
 use strict;
 
 #Calculate total of several numbers.
-sub total 
-{
-	my $sum;
-	foreach (@_) 
-	{
-		$sum += $_;
-	}
-	$sum;
+sub total {
+    my $sum;
+    foreach (@_) {
+        $sum += $_;
+    }
+    $sum;
 }
 
 my @numbers = (1..1000);

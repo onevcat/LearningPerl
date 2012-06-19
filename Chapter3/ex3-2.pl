@@ -9,5 +9,5 @@ chomp (@outputIndexes = <STDIN>);
 
 #Here is no array bounds checking. Thanks to Perl, it will just be a (W uninitialized) rather than crash, which is pretty cool!
 foreach (@outputIndexes) {
-	print "Index: $_, Name: $names[$_-1]\n";
+    print "Index: $_, Name: $names[$_-1]\n";
 }

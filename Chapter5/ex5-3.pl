@@ -19,11 +19,10 @@ foreach (@list) {
 	printf "%${position}s\n", $_;
 }
 
-sub checkCount
-{
-	my $maxLength = shift @_;
-	foreach (@_) {
-		length > $maxLength ? $maxLength = length : 0;
-	}
-	$maxLength;
+sub checkCount {
+    my $maxLength = shift @_;
+    foreach (@_) {
+    length > $maxLength ? $maxLength = length : 0;
+    }
+    $maxLength;
 }
